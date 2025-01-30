@@ -18,8 +18,9 @@
 </head>
 
 <body class="sora overflow-x-hidden">
-    <header class="bg-gradient-to-t from-[#ffffff] to-[#EFEBE3] px-5 lg:px-[10%]">
-        <div class="navbar flex justify-between">
+    <header class="bg-gradient-to-b from-[#ffffff] to-[#EFEBE3] lg:px-[10%]">
+        <!-- navbar -->
+        <div class="navbar flex justify-between border-2 px-7 border-green-500 md:border-hidden">
             <div class="navbar-start w-screen md:w-auto flex justify-between flex-row-reverse">
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -31,14 +32,14 @@
                     </div>
                     <ul tabindex="0"
                         class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-20 p-0 shadow ">
-                        <li><a>Products</a></li>
-                        <li><a>Services</a></li>
+                        <li><a>Prod</a></li>
+                        <li><a>Serve</a></li>
                         <li><a>Contact Us</a></li>
                     </ul>
                 </div>
 
-              <img class="w-28 md:w-auto" src="./c2-assets/logo-header.png" alt="">
-              <!-- <img class="grid lg:hidden" src="./c2-assets/logo-footer.png" alt=""> -->
+                <img class="w-28 md:w-auto" src="./c2-assets/logo-header.png" alt="">
+                <!-- <img class="grid lg:hidden" src="./c2-assets/logo-footer.png" alt=""> -->
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1">
@@ -52,6 +53,22 @@
                 <i class="fa-solid fa-cart-shopping"></i>
                 <button class="bg-white border-2 border-green-500 px-6 py-1 rounded-lg">Login</button>
                 <button class=" bg-green-500 text-white px-6 py-1 rounded-lg">Register</button>
+            </div>
+        </div>
+
+        <!-- banner sextion -->
+        <div class="px-7">
+            <!-- banner text -->
+            <div class="mt-20 md:px-[20%] text-center grid justify-center">
+                <h2 class="font-semibold text-3xl md:text-5xl">Freshness <span class="text-green-500">You Can <br>
+                        Count</span>
+                    On, Prices You’ll Love!</h2>
+                <p class="mt-4 md:mt-8">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you
+                    covered every day!</p>
+            </div>
+            <!-- banner img -->
+            <div class="mx-auto mt-8 md:mt-10">
+                <img class="mx-auto" src="./c2-assets/hero-vegetables.png" alt="">
             </div>
         </div>
     </header>
