@@ -18,7 +18,7 @@
 </head>
 
 <body class="sora overflow-x-hidden">
-    <header class="bg-gradient-to-b from-[#ffffff] to-[#EFEBE3] lg:px-[10%]">
+    <header class="bg-gradient-to-b from-[#ffffff] to-[#EFEBE3] lg:px-20">
         <!-- navbar -->
         <div class="navbar flex justify-between border-2 px-7 lg:px-0 border-green-500 md:border-hidden">
             <div class="navbar-start w-screen md:w-auto flex justify-between flex-row-reverse">
@@ -73,15 +73,16 @@
             </div>
         </div>
     </header>
-    <main class="px-7 lg:px-[10%] mx-auto">
+    <main class=" mx-auto">
         <!-- services section -->
-        <div class="mt-12 md:mt-24">
+        <section class="mt-12 md:mt-24 px-7 lg:px-20">
             <h2 class="text-3xl text-green-500 font-bold text-left">Services</h2>
             <!-- cards container -->
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 md:gap-8 mx-auto mt-6 md:mt-10">
                 <!-- first card -->
-                <div class="w-full md:h-auto mx-auto bg-[#EFEBE3] p-5 md:px-10 md:py-10 grid gap-8 justify-center rounded-3xl">
-                    <img  class="mx-auto bg-white rounded-full p-5" src="./c2-assets/service.png" alt="">
+                <div
+                    class="w-full md:h-auto mx-auto bg-[#EFEBE3] p-5 md:px-10 md:py-10 grid gap-8 justify-center rounded-3xl">
+                    <img class="mx-auto bg-white rounded-full p-5" src="./c2-assets/service.png" alt="">
                     <div class="text-center">
                         <h2 class="text-xl font-bold">24/7 Services</h2>
                         <p class="mt-4">We provide high quality services 24 hours in a day nonstop. Wishing your
@@ -91,8 +92,9 @@
                     </div>
                 </div>
                 <!-- second card -->
-                <div class="w-full md:h-auto mx-auto bg-[#EFEBE3] p-5 md:px-10 md:py-10 grid gap-8 justify-center rounded-3xl">
-                    <img  class="mx-auto bg-white rounded-full p-5" src="./c2-assets/delivery.png" alt="">
+                <div
+                    class="w-full md:h-auto mx-auto bg-[#EFEBE3] p-5 md:px-10 md:py-10 grid gap-8 justify-center rounded-3xl">
+                    <img class="mx-auto bg-white rounded-full p-5" src="./c2-assets/delivery.png" alt="">
                     <div class="text-center">
                         <h2 class="text-xl font-bold">Fast Delivery</h2>
                         <p class="mt-4">We will reach the product at your home withing 24 ours. Our delivery is Fast as
@@ -100,7 +102,8 @@
                     </div>
                 </div>
                 <!-- third card -->
-                <div class="w-full md:h-auto mx-auto bg-[#EFEBE3] p-5 md:px-10 md:py-10 grid gap-8 justify-center rounded-3xl">
+                <div
+                    class="w-full md:h-auto mx-auto bg-[#EFEBE3] p-5 md:px-10 md:py-10 grid gap-8 justify-center rounded-3xl">
                     <img class="mx-auto bg-white rounded-full p-5" src="./c2-assets/healthy.png" alt="">
                     <div class="text-center">
                         <h2 class="text-xl font-bold">Healthy Products</h2>
@@ -109,7 +112,144 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <!-- popular products section -->
+        <section class="bg-[#EFEBE3] w-full h-full px-7 lg:px-20 mt-16 md:mt-28 py-10 md:py-20">
+            <h2 class="text-green-500 text-3xl font-bold">Popular Products</h2>
+            <div class="flex flex-col lg:flex-row mt-10 gap-5  md:h-[55vh]">
+                <!-- buy now card -->
+                <div class="bg-gradient-to-br max-w-2xl md:w-2/3 mx-auto  h-[380px] md:h-full  from-[#53DB3A] to-[#FFFFFF] rounded-3xl">
+                    <div class="px-4 py-5 md:px-12 md:pt-20  flex flex-col gap-4 bg-[url('./c2-assets/vegetable-offer.png')] w-full h-full md:h-full bg-no-repeat bg-right-bottom">
+                        <h2 class="text-white text-2xl font-bold ">30% off</h2>
+                        <p>Discover a world of trees, toys, and essentials handpicked for you</p>
+                        <button class="py-2 w-32 rounded-lg px-6 bg-white text-black font-bold">Buy Now</button>
+                    </div>
+                </div>
+
+                <!-- cards container -->             
+                <div class="grid grid-cols-2 w-full md:grid-cols-3 items-center gap-4 h-full justify-between">
+
+                    <!-- card 1 -->
+                    <div class="px-1 md:px-3 py-3 md:py-0 h-5/6 flex items-center gap-3 bg-white rounded-lg md:rounded-2xl">
+                        <img class="w-2/6  md:w-2/6 md:h-4/6 bg-gray-100 rounded-lg " src="./c2-assets/onion.webp" alt="">
+                        <div class="flex flex-col justify-center gap-0 text-left">
+                            <div class="flex items-center gap-2">
+                                <i class="fa-regular fa-star text-yellow-400"></i>
+                                <h4 class=" text-xs md:text-md">4.5</h4>
+                            </div>
+                            <h2 class="text-sm md:text-lg font-bold">Onion 1KG</h2>
+                            <h3 class="text-xs md:text-lg">$39.99</h3>
+                        </div>
+                    </div>
+
+                    <!-- card 1 -->
+                    <div class="px-1 md:px-3 py-3 md:py-0 h-5/6 flex items-center gap-3 bg-white rounded-lg md:rounded-2xl">
+                        <img class="w-2/6  md:w-2/6 md:h-4/6 bg-gray-100 rounded-lg " src="./c2-assets/onion.webp" alt="">
+                        <div class="flex flex-col justify-center gap-0 text-left">
+                            <div class="flex items-center gap-2">
+                                <i class="fa-regular fa-star text-yellow-400"></i>
+                                <h4 class=" text-xs md:text-md">4.5</h4>
+                            </div>
+                            <h2 class="text-sm md:text-lg font-bold">Onion 1KG</h2>
+                            <h3 class="text-xs md:text-lg">$39.99</h3>
+                        </div>
+                    </div>
+
+                    <!-- card 1 -->
+                    <div class="px-1 md:px-3 py-3 md:py-0 h-5/6 flex items-center gap-3 bg-white rounded-lg md:rounded-2xl">
+                        <img class="w-2/6  md:w-2/6 md:h-4/6 bg-gray-100 rounded-lg " src="./c2-assets/onion.webp" alt="">
+                        <div class="flex flex-col justify-center gap-0 text-left">
+                            <div class="flex items-center gap-2">
+                                <i class="fa-regular fa-star text-yellow-400"></i>
+                                <h4 class=" text-xs md:text-md">4.5</h4>
+                            </div>
+                            <h2 class="text-sm md:text-lg font-bold">Onion 1KG</h2>
+                            <h3 class="text-xs md:text-lg">$39.99</h3>
+                        </div>
+                    </div>
+
+                    <!-- card 1 -->
+                    <div class="px-1 md:px-3 py-3 md:py-0 h-5/6 flex items-center gap-3 bg-white rounded-lg md:rounded-2xl">
+                        <img class="w-2/6  md:w-2/6 md:h-4/6 bg-gray-100 rounded-lg " src="./c2-assets/onion.webp" alt="">
+                        <div class="flex flex-col justify-center gap-0 text-left">
+                            <div class="flex items-center gap-2">
+                                <i class="fa-regular fa-star text-yellow-400"></i>
+                                <h4 class=" text-xs md:text-md">4.5</h4>
+                            </div>
+                            <h2 class="text-sm md:text-lg font-bold">Onion 1KG</h2>
+                            <h3 class="text-xs md:text-lg">$39.99</h3>
+                        </div>
+                    </div>
+
+                    <!-- card 1 -->
+                    <div class="px-1 md:px-3 py-3 md:py-0 h-5/6 flex items-center gap-3 bg-white rounded-lg md:rounded-2xl">
+                        <img class="w-2/6  md:w-2/6 md:h-4/6 bg-gray-100 rounded-lg " src="./c2-assets/onion.webp" alt="">
+                        <div class="flex flex-col justify-center gap-0 text-left">
+                            <div class="flex items-center gap-2">
+                                <i class="fa-regular fa-star text-yellow-400"></i>
+                                <h4 class=" text-xs md:text-md">4.5</h4>
+                            </div>
+                            <h2 class="text-sm md:text-lg font-bold">Onion 1KG</h2>
+                            <h3 class="text-xs md:text-lg">$39.99</h3>
+                        </div>
+                    </div>
+
+                    <!-- card 1 -->
+                    <div class="px-1 md:px-3 py-3 md:py-0 h-5/6 flex items-center gap-3 bg-white rounded-lg md:rounded-2xl">
+                        <img class="w-2/6  md:w-2/6 md:h-4/6 bg-gray-100 rounded-lg " src="./c2-assets/onion.webp" alt="">
+                        <div class="flex flex-col justify-center gap-0 text-left">
+                            <div class="flex items-center gap-2">
+                                <i class="fa-regular fa-star text-yellow-400"></i>
+                                <h4 class=" text-xs md:text-md">4.5</h4>
+                            </div>
+                            <h2 class="text-sm md:text-lg font-bold">Onion 1KG</h2>
+                            <h3 class="text-xs md:text-lg">$39.99</h3>
+                        </div>
+                    </div>
+
+                    <!-- card 1 -->
+                    <div class="px-1 md:px-3 py-3 md:py-0 h-5/6 flex items-center gap-3 bg-white rounded-lg md:rounded-2xl">
+                        <img class="w-2/6  md:w-2/6 md:h-4/6 bg-gray-100 rounded-lg " src="./c2-assets/onion.webp" alt="">
+                        <div class="flex flex-col justify-center gap-0 text-left">
+                            <div class="flex items-center gap-2">
+                                <i class="fa-regular fa-star text-yellow-400"></i>
+                                <h4 class=" text-xs md:text-md">4.5</h4>
+                            </div>
+                            <h2 class="text-sm md:text-lg font-bold">Onion 1KG</h2>
+                            <h3 class="text-xs md:text-lg">$39.99</h3>
+                        </div>
+                    </div>
+
+                    <!-- card 1 -->
+                    <div class="px-1 md:px-3 py-3 md:py-0 h-5/6 flex items-center gap-3 bg-white rounded-lg md:rounded-2xl">
+                        <img class="w-2/6  md:w-2/6 md:h-4/6 bg-gray-100 rounded-lg " src="./c2-assets/onion.webp" alt="">
+                        <div class="flex flex-col justify-center gap-0 text-left">
+                            <div class="flex items-center gap-2">
+                                <i class="fa-regular fa-star text-yellow-400"></i>
+                                <h4 class=" text-xs md:text-md">4.5</h4>
+                            </div>
+                            <h2 class="text-sm md:text-lg font-bold">Onion 1KG</h2>
+                            <h3 class="text-xs md:text-lg">$39.99</h3>
+                        </div>
+                    </div>
+
+                    <!-- card 1 -->
+                    <div class="px-1 md:px-3 py-3 md:py-0 h-5/6 flex items-center gap-3 bg-white rounded-lg md:rounded-2xl">
+                        <img class="w-2/6  md:w-2/6 md:h-4/6 bg-gray-100 rounded-lg " src="./c2-assets/onion.webp" alt="">
+                        <div class="flex flex-col justify-center gap-0 text-left">
+                            <div class="flex items-center gap-2">
+                                <i class="fa-regular fa-star text-yellow-400"></i>
+                                <h4 class=" text-xs md:text-md">4.5</h4>
+                            </div>
+                            <h2 class="text-sm md:text-lg font-bold">Onion 1KG</h2>
+                            <h3 class="text-xs md:text-lg">$39.99</h3>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 
